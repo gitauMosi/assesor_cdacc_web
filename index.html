@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assesor-CDACC | CDACC Notes App for Students</title>
+
+    <!-- SEO Meta -->
+    <meta name="description"
+        content="Assesor-CDACC is a lightweight Android app providing organized CDACC course notes. Study offline, revise faster, and prepare confidently for CDACC assessments." />
+    <meta name="keywords"
+        content="CDACC notes, CDACC courses, CDACC app, TVET notes, competency based assessment, CDACC Kenya, offline study app" />
+    <meta name="author" content="Assesor-CDACC" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph / Social -->
+    <meta property="og:title" content="Assesor-CDACC | CDACC Notes App" />
+    <meta property="og:description"
+        content="Smart, organized CDACC notes for students. Offline access, lightweight, and easy to use." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/assests/icons/logo.png" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Assesor-CDACC | CDACC Notes App" />
+    <meta name="twitter:description" content="A focused CDACC notes app built for fast revision and offline study." />
+    <meta name="twitter:image" content="/assests/icons/logo.png" />
+
+    <link rel="icon" href="/assests/svgs/logo.svg" />
+
+
+    <!-- Poppins Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        poppins: ['Poppins', 'sans-serif'],
+                    },
+                    colors: {
+                        primary: '#F59E0B' /* amber */,
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="font-poppins bg-gradient-to-br from-amber-50 via-white to-amber-100 text-gray-900 overflow-x-hidden">
+
+    <!-- HERO -->
+    <section class="relative min-h-screen flex items-center">
+        <div
+            class="absolute inset-0 opacity-10 bg-[radial-gradient(circle_at_top,theme(colors.primary),transparent_60%)]">
+        </div>
+
+        <div class="relative max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+
+            <!-- Text -->
+            <div>
+                <span
+                    class="inline-block mb-4 px-4 py-1 rounded-full bg-primary/10 text-primary text-sm font-medium">CDACC
+                    Study Companion</span>
+                <h1 class="text-4xl md:text-6xl font-bold leading-tight">
+                    Assesor‑CDACC<br />
+                    <span class="text-primary">Notes Made Simple</span>
+                </h1>
+                <p class="mt-6 text-gray-600 max-w-lg">
+                    A focused learning app designed for CDACC students. Access structured notes, revise faster, and
+                    prepare confidently — all in one lightweight app.
+                </p>
+
+                <!-- Buttons -->
+                <div class="mt-8 flex flex-wrap gap-4">
+                    <a href="#"
+                        class="px-6 py-3 rounded-xl bg-primary text-white font-medium shadow-lg hover:scale-105 transition">
+                        Download APK
+                    </a>
+                    <a href="#"
+                        class="px-6 py-3 rounded-xl border border-primary text-primary font-medium hover:bg-primary hover:text-white transition">
+                        OpenAPK
+                    </a>
+                    <button class="px-6 py-3 rounded-xl bg-gray-200 text-gray-500 cursor-not-allowed">
+                        Play Store · Coming Soon
+                    </button>
+                </div>
+            </div>
+
+            <!-- Mock Phone -->
+            <div class="relative flex justify-center">
+                <div class="relative w-72 h-[520px] rounded-[2.5rem] bg-gray-900 shadow-2xl p-3">
+                    <div
+                        class="w-full h-full rounded-[2rem] bg-gradient-to-br from-primary via-amber-400 to-yellow-300 flex flex-col justify-between p-6 text-white">
+                        <div>
+                            <h3 class="text-lg font-semibold">Assesor-CDACC</h3>
+                            <p class="text-sm opacity-80">Smart Notes Hub</p>
+                        </div>
+                        <div class="grid grid-cols-2 gap-3">
+                            <div class="bg-white/20 rounded-xl p-3 text-xs">Communication</div>
+                            <div class="bg-white/20 rounded-xl p-3 text-xs">ICT Skills</div>
+                            <div class="bg-white/20 rounded-xl p-3 text-xs">Entrepreneurship</div>
+                            <div class="bg-white/20 rounded-xl p-3 text-xs">Work Ethics</div>
+                        </div>
+                        <div class="text-xs opacity-80">Offline • Lightweight • Fast</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section class="py-20 ">
+        <div class="max-w-6xl mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12">Why Assesor-CDACC?</h2>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="p-6 rounded-2xl border hover:shadow-xl transition">
+                    <div class="text-primary text-3xl mb-4">
+                        <image src="/assests/svgs/book-solid-full.svg" class="w-10 h-10"></image>
+                    </div>
+                    <h3 class="font-semibold text-lg">Organized Notes</h3>
+                    <p class="text-gray-600 mt-2 text-sm">Clear, structured notes aligned with CDACC learning outcomes.
+                    </p>
+                </div>
+
+                <div class="p-6 rounded-2xl border hover:shadow-xl transition">
+                    <div class="text-primary text-3xl mb-4">
+                        <image src="/assests/svgs/bolt-lightning-solid-full.svg" class="w-10 h-10"></image>
+                    </div>
+                    <h3 class="font-semibold text-lg">Lightweight App</h3>
+                    <p class="text-gray-600 mt-2 text-sm">Optimized for low storage usage and smooth performance.</p>
+                </div>
+
+                <div class="p-6 rounded-2xl border hover:shadow-xl transition">
+                    <div class="text-primary text-3xl mb-4">
+                        <image src="/assests/svgs/signal-solid-full.svg" class="w-10 h-10"></image>
+                    </div>
+                    <h3 class="font-semibold text-lg">Offline Access</h3>
+                    <p class="text-gray-600 mt-2 text-sm">Study anytime, even without an internet connection.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SCREENSHOTS -->
+    <section class="py-20">
+        <div class="max-w-6xl mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-4">App Screenshots</h2>
+            <p class="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
+                A quick preview of how Assesor-CDACC looks and feels. Clean, focused, and built for learning.
+            </p>
+
+            <div class="relative">
+                <div class="flex gap-6 overflow-x-auto pb-6 snap-x snap-mandatory scrollbar-hide">
+
+                    <!-- Screenshot Card -->
+                    <div class="snap-center flex-shrink-0 w-64 h-[520px] rounded-[2.5rem] bg-gray-900 p-3 shadow-xl">
+                       
+                        <div class="w-full h-full rounded-[2rem] bg-cover bg-center"
+                            style="background-image:url('/assests/images/screen1.png')">
+                        </div>
+                    </div>
+
+                    <div class="snap-center flex-shrink-0 w-64 h-[520px] rounded-[2.5rem] bg-gray-900 p-3 shadow-xl">
+                        <div class="w-full h-full rounded-[2rem] bg-cover bg-center"
+                            style="background-image:url('/assests/images/screen2.png')">
+                        </div>
+                    </div>
+
+                    <div class="snap-center flex-shrink-0 w-64 h-[520px] rounded-[2.5rem] bg-gray-900 p-3 shadow-xl">
+                       <div class="w-full h-full rounded-[2rem] bg-cover bg-center"
+                            style="background-image:url('/assests/images/screen3.png')">
+                        </div>
+                    </div>
+
+                    <div class="snap-center flex-shrink-0 w-64 h-[520px] rounded-[2.5rem] bg-gray-900 p-3 shadow-xl">
+                        <div class="w-full h-full rounded-[2rem] bg-cover bg-center"
+                            style="background-image:url('/assests/images/screen4.png')">
+                        </div>
+                    </div>
+                </div>
+
+                <p class="text-center text-xs text-gray-500 mt-4">Swipe horizontally to view more</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- COURSES -->
+    <section class="py-20 ">
+        <div class="max-w-6xl mx-auto px-6">
+            <h2 class="text-3xl font-bold mb-8">CDACC Courses Covered</h2>
+            <p class="text-gray-600 mb-8 max-w-3xl">
+                The app covers common CDACC competency areas. Course names may differ by institution.
+            </p>
+
+            <div class="flex flex-wrap gap-3">
+                <span class="px-4 py-2 bg-white rounded-full shadow text-sm">Communication Skills</span>
+                <span class="px-4 py-2 bg-white rounded-full shadow text-sm">Digital Literacy</span>
+                <span class="px-4 py-2 bg-white rounded-full shadow text-sm">Entrepreneurship</span>
+                <span class="px-4 py-2 bg-white rounded-full shadow text-sm">Workplace Safety</span>
+                <span class="px-4 py-2 bg-white rounded-full shadow text-sm">Core Employability Skills</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="py-10 bg-gray-900 text-gray-300">
+        <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row justify-between gap-6">
+            <div>
+                <h3 class="text-white font-semibold">Assesor-CDACC</h3>
+                <p class="text-sm opacity-70">A student-focused CDACC notes application.</p>
+            </div>
+
+            <div class="text-sm opacity-70">
+                <p>© 2026 Assesor-CDACC</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
